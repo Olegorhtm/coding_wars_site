@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Fraunces:wght@300;400;500;600&family=Gorditas&family=Hachi+Maru+Pop&family=Indie+Flower&family=Major+Mono+Display&family=Neucha&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=VT323&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+	<title>Coding Wars</title>
+	<link rel="stylesheet" href="css/style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+</head>
+<body>
+
+	<header class="header">
+		
+		<div class="header__inner">
+				
+			<div class="header__logo">
+				
+				<a class="logo" href="index.html"><img class="logo_image" src="img/logo.png" alt=""></a>
+
+			</div>
+
+			<nav class="nav">
+				
+				<a href="#" class="nav__link selected">Главная</a>
+				<a href="#" class="nav__link">Курсы</a>
+				<a href="#" class="nav__link">Блог</a>
+				<a href="#" class="nav__link">Скачать</a>
+				<a href="#" class="nav__link last_link">Топ учеников</a>
+				<a id="open_entrance" class="nav__button nav__button1">Войти</a >
+				<a id="open_registration" class="nav__button nav__button2">Зарегистрироваться</a>
+
+			</nav>
+
+		</div>
+
+	</header>
+
+	<div class="logine modal_window" id="registration">
+      <form action="check.php" method="post">
+      	<div class="exit" id="show_registration">&#215</div>
+          <h2>Registration</h2>
+          <h5>Зарегестрироваться</h5>
+          <input class="intep" type="text" name="login" placeholder="Логин"><br>
+          <input class="intep" type="text" name="name" placeholder="Имя"><br>
+          <input class="intep" type="password" name="pass" placeholder="Секретный код"><br>
+          <input class="intep" type="submit" class="btn-success" value="Зарегестрироваться">
+      </form>
+    </div>
+
+<div class="modal_window logine" id="entrance">
+              <div class="exit" id="show_entrance">&#215</div>
+              <form action="auth.php" method="post">
+                  <h2>Log In</h2>
+                  <h5>Войти</h5>
+                  <input class="intep" type="text" name="login" placeholder="Логин"><br>
+                  <input class="intep" type="password" name="pass" placeholder="Секретный код"><br>
+                  <input class="intep" type="submit" class="log_in" value ="Войти">
+              </form>
+            </div>
+
+	<div class="intro">
+		
+		<div class="intro__inner">
+			
+			<h1 class="intro__title">coding Wars</h1>
+			<p class="intro_paragraph">Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Fugiat eius fugit sit ut ullam, rerum, atque optio, dicta, vitae consectetur quaerat cumque blanditiis quisquam molestiae quae obcaecati ducimus perferendis reprehenderit.
+			Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Quo nulla enim qui! Magnam, expedita soluta, deserunt delectus nam maiores? Dolorem ea dicta reiciendis officia animi nostrum, mollitia impedit nemo aut.<br>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa iste in labore sit distinctio! Adipisci, unde saepe expedita vero omnis accusamus nam rem id quisquam neque cupiditate vel nisi, quos.</p>
+
+			<div class="intro__buttons">
+
+				<a class="intro__button intro__button1">Скачать</a>
+				<a class="intro__button intro__button2" href="#">Курсы</a>
+				
+			</div>
+
+		</div>
+
+	</div>
+
+<div class="cours">
+	
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,296 @@
+
+
+/*
+
+font-family: 'Caveat', cursive;
+font-family: 'Fraunces', serif;
+font-family: 'Gorditas', cursive;
+font-family: 'Hachi Maru Pop', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Neucha', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'VT323', monospace;
+font-family: 'Open Sans', sans-serif;
+
+*/
+
+
+
+body {
+	margin: 0;
+	background-color: #121212;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+
+
+/* Header
+================================================*/
+
+
+.header {
+	background-color: #222;
+}
+
+
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 50px;
+}
+
+
+/* Logo
+================================================*/
+
+
+.header__logo {
+
+}
+
+
+
+.logo {
+
+}
+
+
+
+.logo_image {
+	width: 55px;
+}
+
+
+
+/* Menu
+================================================*/
+
+
+.nav {
+
+}
+
+
+
+.nav:hover {
+	cursor: default;
+}
+
+
+.nav__link {
+	text-decoration: none;
+	color: #fff;
+	font-size: 17px;
+	margin-right: 5px;
+	padding: 20px 10px 18px;
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
+	transition: border-bottom .11s linear, color .12s linear;
+}
+
+
+.nav__link:hover {
+	border-bottom: 3px solid yellowgreen;
+	color: yellowgreen;
+}
+
+
+
+.selected {
+	color: #fff;
+}
+
+
+.last_link {
+	margin-right: 250px;
+}
+
+
+.nav__button {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	margin-left: 10px;
+	border: none;
+	padding: 8px 15px;
+	border-radius: 20px;
+}
+
+
+.nav__button1 {
+	color: #ccc;
+	padding: 4px 6px;
+	margin-right: 6px;
+	transition: color .1s linear;
+}
+
+
+.nav__button1:hover {
+	color: #fff;
+}
+
+
+.nav__button2 {
+	background-color: #7ca428;
+	border: none;
+	padding: 10px 15px;
+	transition: background-color .1s linear, color .1s linear;
+}
+
+
+
+.nav__button2:hover {
+	background-color: #6d9023;
+	color: #e5e5e5;
+}
+
+/*Logine
+=============================*/
+.modal_window{
+	width:90%;
+	max-width:400px;
+	padding:15px 20px;
+	background:#FFF;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-webkit-transform:translateY(-30px);
+	-moz-transform:translateY(-30px);
+	-ms-transform:translateY(-30px);
+	-o-transform:translateY(-30px);
+	transform:translateY(-30px);
+	-webkit-transition-property:-webkit-transform;
+	-moz-transition-property:-moz-transform;
+	transition-property:transform;
+	-webkit-transition-duration:.3s;
+	-moz-transition-duration:.3s;
+	transition-duration:.3s;
+	padding:20px;
+	-webkit-box-shadow:0 5px 41px 0 rgba(0,0,0,1);
+	-moz-box-shadow:0 5px 41px 0 rgba(0,0,0,1);
+	box-shadow:0 5px 41px 0 rgba(0,0,0,1);
+	overflow:auto;
+	border:5px solid transparent;
+	border-color:rgba(239,236,236,0.52);
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px
+}
+.modal_window{
+	display: none;
+    position: fixed;
+    opacity: 1; 
+    z-index: 11000; 
+    left: 50%; 
+    margin-left: -200px; 
+    top: 130px;
+	text-align:center;
+	font-size:21px;
+	line-height:30px;
+}
+.intep{
+	font-size: 19px;
+	padding: 10px;
+}
+input[type=text]:focus {
+  border: 3px solid #DAA520;
+}
+input[type=password]:focus{
+	border: 3px solid #9932CC;
+}
+#show_window{
+	text-decoration: underline;
+	cursor: pointer;
+	color: #4169E1;
+}
+.exit{
+	float: right;
+	margin-right: -10px;
+	margin-top: -19px;
+	cursor: pointer;
+	color: #4169E1;
+}
+
+.logine{
+	background: #5F9EA0;
+	border: 2px solid blue;
+	text-align: center;
+	width: 40%;
+	padding: 21px;
+}
+.logine input{
+	position: relative;
+	margin: 3px;
+	border-radius: 15px;
+}
+/* Intro
+================================================*/
+
+
+.intro {
+	background-image: url(../); /*==================================================*/
+}
+
+
+
+.intro__inner {
+	padding: 50px 100px;
+	text-align: center;
+}
+
+
+
+.intro__title {
+	font-family: 'Major Mono Display', monospace;
+	font-size: 50px;
+}
+
+
+
+
+.intro_paragraph {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	/*width: 700px;*/
+}
+
+
+
+
+/* Intro Buttons
+================================================*/
+
+
+.intro__buttons {
+	margin-top: 50px;
+}
+
+
+
+.intro__buttons:hover {
+	cursor: default;
+}
+
+
+.intro__button {
+	text-decoration: none;
+	color: #fff;
+	font-size: 21px;
+	padding: 15px 20px;
+	margin-right: 20px;
+	border-radius: 30px;
+	border: 1px solid #fff;
+	transition: background-color .12s linear, border-color .12s linear;
+}
+
+
+
+.intro__button:hover {
+	background-color: #7ca428;
+	border-color: #7ca428;
+}
